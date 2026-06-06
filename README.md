@@ -48,15 +48,6 @@ Offline-first repository context and safety toolkit for AI-assisted development.
 
 ---
 
-### Featured Repositories
-
-| Repo | Description |
-|---|---|
-| [agent-context-kit](https://github.com/Cynrath/agent-context-kit) | Offline-first repository context and safety toolkit for AI-assisted development. |
-| [cyranth.github.io](https://github.com/Cynrath/cyranth.github.io) | Personal lab and portfolio site for Cyranth. |
-
----
-
 ### Contact
 
 Open an issue or discussion on any public repository.
