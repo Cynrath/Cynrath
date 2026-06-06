@@ -57,9 +57,6 @@ Offline-first repository context and safety toolkit for AI-assisted development.
 
 ---
 
-
----
-
 ### Contact
 
 Open an issue or discussion on any public repository.
