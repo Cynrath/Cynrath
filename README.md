@@ -57,7 +57,6 @@ Offline-first repository context and safety toolkit for AI-assisted development.
 
 ---
 
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=Cynrath&show_icons=true&theme=transparent&hide_border=true&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&bg_color=00000000)
 
 ---
 
