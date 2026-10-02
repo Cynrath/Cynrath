@@ -16,11 +16,12 @@ I build practical software for real repositories: coding-agent workflows, develo
 
 ---
 
-## Featured Project
+## Featured Projects
 
 | Project | Summary |
 | --- | --- |
 | [AgentContextKit](https://github.com/Cynrath/agent-context-kit) | Offline-first developer toolkit that helps make repositories safer and easier for AI coding agents to understand and work with. |
+| [ACKit Spec Kit Bridge](https://github.com/Cynrath/ackit-spec-kit-bridge) | Community bridge between GitHub Spec Kit and ACKit that maps spec-driven artifacts into deterministic task state, evidence, state-bound verification, completion gates, checkpoints and handoffs. ([npm](https://www.npmjs.com/package/@cynrath/ackit-spec-kit-bridge) · [docs](https://cynrath.github.io/ackit-spec-kit-bridge/)) |
 
 **AgentContextKit focuses on:**
 
