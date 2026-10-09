@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="245" viewBox="0 0 560 245" role="img" aria-labelledby="title desc">
+<title id="title">ACKit Spec Kit Bridge visual project card</title><desc id="desc">Verification flow with linked tasks, checks and evidence, in the Cynrath editorial palette.</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#131D27"/><stop offset="1" stop-color="#0B151B"/></linearGradient><pattern id="p" width="21" height="21" patternUnits="userSpaceOnUse"><path d="M21 0H0V21" fill="none" stroke="#72A395" stroke-opacity=".10"/></pattern><clipPath id="c"><rect width="560" height="245" rx="12"/></clipPath></defs>
+<g clip-path="url(#c)"><rect width="560" height="245" fill="url(#bg)"/><rect x="305" width="255" height="245" fill="url(#p)"/>
+<path d="M0 0H560" stroke="#E0BE86" stroke-width="2"/><path d="M23 208H538" stroke="#91C3B4" opacity=".16"/>
+<text x="25" y="36" font-size="11" font-family="Arial, Helvetica, sans-serif" letter-spacing="2.4" fill="#A4C0B6">02 / INTEGRATION</text>
+<text x="25" y="98" font-size="30" font-weight="700" letter-spacing="-.8" font-family="Arial, Helvetica, sans-serif" fill="#F2F7F1">ACKit Spec Kit</text>
+<text x="25" y="134" font-size="30" font-weight="700" letter-spacing="-.8" font-family="Arial, Helvetica, sans-serif" fill="#F2F7F1">Bridge</text>
+<path d="M26 153H86" stroke="#E0BE86" stroke-width="3"/>
+<text x="25" y="224" font-size="10.5" font-family="Arial, Helvetica, sans-serif" letter-spacing="2.1" fill="#86A69B">TASKS  /  EVIDENCE  /  VERDICTS</text>
+<path d="M409 43V190" stroke="#9EC7B9" stroke-dasharray="4 6" opacity=".55" stroke-width="1.5"/>
+<rect x="349" y="52" width="119" height="30" rx="6" fill="#213238" stroke="#5E8D7F"/><text x="408" y="72" text-anchor="middle" font-family="monospace" font-size="11" fill="#D5E9DB">01  SPEC</text>
+<rect x="349" y="105" width="119" height="30" rx="6" fill="#213238" stroke="#5E8D7F"/><text x="408" y="125" text-anchor="middle" font-family="monospace" font-size="11" fill="#D5E9DB">02  EXECUTE</text>
+<rect x="349" y="158" width="119" height="30" rx="6" fill="#26362E" stroke="#9FE6BB"/><text x="408" y="178" text-anchor="middle" font-family="monospace" font-size="11" fill="#C8F8D9">03  VERIFY</text>
+<g fill="#D8B87F"><circle cx="409" cy="94" r="3"/><circle cx="409" cy="147" r="3"/></g>
+</g></svg>

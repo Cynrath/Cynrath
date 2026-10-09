@@ -1,27 +1,39 @@
 <div align="center">
 
-![Cyranth banner](assets/banner.svg)
+<img src="./assets/banner.svg" alt="Cynrath — software engineering, developer tooling, and dependable web systems" width="100%" />
 
-### AI-assisted development, developer tooling, and production-ready web systems.
+**Building dependable software, purposeful tools, and practical infrastructure.**
 
 I build practical software for real repositories: coding-agent workflows, developer automation, secure admin systems, and production-grade web platforms.
 
-<p>
-  <a href="https://github.com/Cynrath/agent-context-kit"><img alt="Featured project" src="https://img.shields.io/badge/featured-AgentContextKit-111827?logo=github&logoColor=white"></a>
-  <img alt="Focus" src="https://img.shields.io/badge/focus-AI%20Developer%20Tooling-111827">
-  <img alt="Stack" src="https://img.shields.io/badge/stack-TypeScript%20%7C%20.NET%20%7C%20Cloudflare-0f172a">
-</p>
+<sub><a href="#featured-projects">Featured Projects</a> · <a href="#current-focus">Current Focus</a> · <a href="#tech-stack">Tech Stack</a> · <a href="#principles">Principles</a></sub>
 
 </div>
 
----
-
 ## Featured Projects
 
-| Project | Summary |
-| --- | --- |
-| [AgentContextKit](https://github.com/Cynrath/agent-context-kit) | Offline-first developer toolkit that helps make repositories safer and easier for AI coding agents to understand and work with. |
-| [ACKit Spec Kit Bridge](https://github.com/Cynrath/ackit-spec-kit-bridge) | Community bridge between GitHub Spec Kit and ACKit that maps spec-driven artifacts into deterministic task state, evidence, state-bound verification, completion gates, checkpoints and handoffs. ([npm](https://www.npmjs.com/package/@cynrath/ackit-spec-kit-bridge) · [docs](https://cynrath.github.io/ackit-spec-kit-bridge/)) |
+<table>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/Cynrath/agent-context-kit"><img src="./assets/agent-context-kit.svg" width="100%" alt="AgentContextKit — repository context and safety toolkit" /></a>
+<br />
+<strong><a href="https://github.com/Cynrath/agent-context-kit">AgentContextKit</a></strong>
+<br />
+An offline-first developer toolkit that helps make repositories safer and easier for AI coding agents to understand and work with.
+<br /><br />
+<a href="https://github.com/Cynrath/agent-context-kit">Explore repository →</a>
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/Cynrath/ackit-spec-kit-bridge"><img src="./assets/ackit-spec-kit-bridge.svg" width="100%" alt="ACKit Spec Kit Bridge — task and verification workflow" /></a>
+<br />
+<strong><a href="https://github.com/Cynrath/ackit-spec-kit-bridge">ACKit Spec Kit Bridge</a></strong>
+<br />
+Community bridge between GitHub Spec Kit and ACKit that maps spec-driven artifacts into deterministic task state, evidence, state-bound verification, completion gates, checkpoints and handoffs.
+<br /><br />
+<a href="https://github.com/Cynrath/ackit-spec-kit-bridge">Repository →</a> · <a href="https://www.npmjs.com/package/@cynrath/ackit-spec-kit-bridge">npm →</a> · <a href="https://cynrath.github.io/ackit-spec-kit-bridge/">Docs →</a>
+</td>
+</tr>
+</table>
 
 **AgentContextKit focuses on:**
 
@@ -33,26 +45,22 @@ I build practical software for real repositories: coding-agent workflows, develo
 
 Project details, installation, commands, architecture, development status, and release information live in the [AgentContextKit repository](https://github.com/Cynrath/agent-context-kit).
 
----
-
 ## Current Focus
 
 | Area | Direction |
 | --- | --- |
-| AI-assisted development | Safer context, agent workflows, and developer automation |
+| Engineering workflows | Safer context, agent workflows, and developer automation |
 | Developer tooling | Practical tools for real repositories and repeatable engineering workflows |
 | Production web systems | ASP.NET Core MVC, admin panels, RBAC, audit logs, SEO, deployment |
 | Operations | GitHub Actions, Docker, Linux, Cloudflare, MSSQL, server workflows |
-
----
 
 ## Tech Stack
 
 ` TypeScript ` ` Node.js ` ` .NET ` ` ASP.NET Core ` ` C# ` ` MSSQL ` ` EF Core ` ` GitHub Actions ` ` Docker ` ` Linux ` ` Cloudflare ` ` Git `
 
----
-
 ## Principles
+
+**Understand the system → Define the change → Implement deliberately → Verify the result.**
 
 | Principle | Meaning |
 | --- | --- |
@@ -61,8 +69,6 @@ Project details, installation, commands, architecture, development status, and r
 | Security-aware | Secrets, permissions, audit trails, and safe defaults matter. |
 | Production-ready | Built for real environments, not throwaway demos. |
 | Maintainable | Prefer readable, testable, predictable technology. |
-
----
 
 ## Contact
 
