@@ -1,34 +1,34 @@
-# GitHub profile — maintenance notes
+# Profile design and maintenance
 
-## Scope
+## Intent
 
-This is the public profile repository for [Cynrath](https://github.com/Cynrath). GitHub renders the root `README.md` on the user profile. The profile presents engineering work and publicly available repositories rather than a label describing which tools are used.
+The public GitHub profile of **Cynrath** showcases independent software engineering, production web systems, automation and developer tooling. Lead with proof through real public repositories, not claims or vanity counters.
+
+## Assets
+
+- `assets/banner.svg` — 1200 × 390 editorial identity header, subtle native SMIL motion on technical orbit only.
+- `assets/agent-context-kit.svg` — 560 × 245 project illustration.
+- `assets/ackit-spec-kit-bridge.svg` — 560 × 245 project illustration.
+- All images are committed locally, with no remote fonts, CDN images, JavaScript, or external stats widgets.
+- Text and core visuals remain legible if SVG animations are blocked.
+- GitHub may proxy/sanitize SVG images; browser-specific playback must be checked on rendered profile (not only raw source).
+- Design uses a fixed dark surface so it is consistent on GitHub's light and dark site themes.
 
 ## Privacy
 
-Do not add personal/legal names, direct contact details, credentials, private repository details, or client information to public profile content. Use **Cynrath**, matching the GitHub account and banner.
+Never publish personal/legal names, phone numbers, personal e-mail, client names, customer systems, unpublished work, credentials, private URLs or repositories. Keep the public handle `Cynrath` consistent.
 
-## Visual assets
+## Content
 
-- `assets/banner.svg` is a self-contained 1000 × 300 SVG.
-- The banner uses native SVG shapes and declarative SMIL animation; it contains no JavaScript, external fonts, network requests, or remotely hosted graphics.
-- The initial/static frame is complete and legible when animation is unavailable.
-- Motion is deliberately limited to a slow signal along the workflow and a small status indicator.
-- GitHub's standalone SVG preview may not animate. Check the rendered README on the actual profile in addition to inspecting the file.
-- The banner is designed to stay legible against GitHub's light and dark page themes.
+- Keep featured work tied to the actual public repositories and remove broken links promptly.
+- Avoid fake metrics, dynamically generated GitHub activity cards, unsupported personal claims, busy badge walls, and gratuitous emojis.
+- Prefer short, accurate summaries. The README must remain readable on both mobile and desktop.
+- Keep brand copy in English on public-facing profile; internal notes may be Turkish or English.
 
-## Content rules
+## Release verification
 
-- Lead with software engineering, production web applications, infrastructure, and developer tooling.
-- Keep technical claims grounded in published work.
-- Avoid unnecessary badges, GitHub stat generators, rotating widgets, and third-party image services.
-- Update project links and summaries when repositories change.
-- Keep the README concise enough to scan on mobile.
-
-## Review checklist
-
-1. Check the banner SVG is valid XML and renders as a static image.
-2. Inspect text clipping and legibility at desktop and narrow widths.
-3. Review README links and image paths.
-4. Verify the rendered [GitHub profile](https://github.com/Cynrath) after merging.
-5. Check any motion in a real browser; if GitHub blocks it, retain the legible static banner.
+1. Parse all SVGs as XML, verify safe self-contained markup, and rasterize them to ensure text stays within bounds.
+2. Preview GitHub-flavored HTML layout at desktop and mobile widths.
+3. Verify every relative image path exists and links point to the correct repositories.
+4. Inspect the actual profile after merging; confirm if animated motion renders under GitHub's image proxy.
+5. Only merge after visual review. Do not change unrelated repositories or profile account settings in this change.
