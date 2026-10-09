@@ -1,69 +1,42 @@
 <div align="center">
 
-![Cyranth banner](assets/banner.svg)
+<img src="./assets/banner.svg" alt="Cynrath — Software engineering and developer tooling" width="100%" />
 
-### AI-assisted development, developer tooling, and production-ready web systems.
+**Building dependable developer tools, web applications, and infrastructure.**
 
-I build practical software for real repositories: coding-agent workflows, developer automation, secure admin systems, and production-grade web platforms.
-
-<p>
-  <a href="https://github.com/Cynrath/agent-context-kit"><img alt="Featured project" src="https://img.shields.io/badge/featured-AgentContextKit-111827?logo=github&logoColor=white"></a>
-  <img alt="Focus" src="https://img.shields.io/badge/focus-AI%20Developer%20Tooling-111827">
-  <img alt="Stack" src="https://img.shields.io/badge/stack-TypeScript%20%7C%20.NET%20%7C%20Cloudflare-0f172a">
-</p>
+[Selected work](#selected-work) · [Technical focus](#technical-focus) · [Engineering approach](#engineering-approach)
 
 </div>
 
----
+## Selected work
 
-## Featured Projects
+### [AgentContextKit](https://github.com/Cynrath/agent-context-kit)
 
-| Project | Summary |
+An offline-first toolkit for repository analysis and developer-agent workflows. It focuses on usable project context, safer automation, clear instructions, and evidence-driven engineering.
+
+**Explore:** [Repository](https://github.com/Cynrath/agent-context-kit)
+
+### [ACKit Spec Kit Bridge](https://github.com/Cynrath/ackit-spec-kit-bridge)
+
+Connects GitHub Spec Kit artifacts to ACKit's task lifecycle: traceable decisions, verification evidence, completion gates, checkpoints, and handoffs.
+
+**Explore:** [Repository](https://github.com/Cynrath/ackit-spec-kit-bridge) · [npm](https://www.npmjs.com/package/@cynrath/ackit-spec-kit-bridge) · [Documentation](https://cynrath.github.io/ackit-spec-kit-bridge/)
+
+## Technical focus
+
+| Discipline | Tools & practices |
 | --- | --- |
-| [AgentContextKit](https://github.com/Cynrath/agent-context-kit) | Offline-first developer toolkit that helps make repositories safer and easier for AI coding agents to understand and work with. |
-| [ACKit Spec Kit Bridge](https://github.com/Cynrath/ackit-spec-kit-bridge) | Community bridge between GitHub Spec Kit and ACKit that maps spec-driven artifacts into deterministic task state, evidence, state-bound verification, completion gates, checkpoints and handoffs. ([npm](https://www.npmjs.com/package/@cynrath/ackit-spec-kit-bridge) · [docs](https://cynrath.github.io/ackit-spec-kit-bridge/)) |
+| **Application engineering** | C#, ASP.NET Core MVC, Entity Framework Core, REST APIs |
+| **Backend & data** | TypeScript, Node.js, PHP, MSSQL, SQL, integrations |
+| **Delivery & infrastructure** | GitHub Actions, Docker, Linux, Cloudflare, CI/CD |
+| **Developer tooling** | Repository automation, agent workflows, CLI tools, security checks |
 
-**AgentContextKit focuses on:**
+## Engineering approach
 
-- Repository and instruction analysis.
-- Agent-ready context and workflow preparation.
-- Task-first and docs-first development workflows.
-- Security, secret, privacy, and repository-hygiene checks.
-- CI-friendly reports and automation-ready outputs.
+**Understand → Design → Implement → Verify → Maintain**
 
-Project details, installation, commands, architecture, development status, and release information live in the [AgentContextKit repository](https://github.com/Cynrath/agent-context-kit).
+I value explicit requirements, small reviewable changes, secure defaults, and verification that reflects the actual repository state. Good tooling should remain understandable and useful long after its first release.
 
 ---
 
-## Current Focus
-
-| Area | Direction |
-| --- | --- |
-| AI-assisted development | Safer context, agent workflows, and developer automation |
-| Developer tooling | Practical tools for real repositories and repeatable engineering workflows |
-| Production web systems | ASP.NET Core MVC, admin panels, RBAC, audit logs, SEO, deployment |
-| Operations | GitHub Actions, Docker, Linux, Cloudflare, MSSQL, server workflows |
-
----
-
-## Tech Stack
-
-` TypeScript ` ` Node.js ` ` .NET ` ` ASP.NET Core ` ` C# ` ` MSSQL ` ` EF Core ` ` GitHub Actions ` ` Docker ` ` Linux ` ` Cloudflare ` ` Git `
-
----
-
-## Principles
-
-| Principle | Meaning |
-| --- | --- |
-| Docs first | Changes start with context, scope, and documentation. |
-| Task first | Acceptance criteria and rollback notes before implementation. |
-| Security-aware | Secrets, permissions, audit trails, and safe defaults matter. |
-| Production-ready | Built for real environments, not throwaway demos. |
-| Maintainable | Prefer readable, testable, predictable technology. |
-
----
-
-## Contact
-
-Open an issue or discussion on any public repository.
+<sub>For questions or collaboration, open an issue or discussion in a relevant public repository.</sub>
