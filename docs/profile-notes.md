@@ -2,7 +2,7 @@
 
 ## Scope
 
-This is the public profile repository for [Cynrath](https://github.com/Cynrath). GitHub renders the root `README.md` on the user profile. The profile presents engineering work and publicly available repositories rather than an "AI-assisted" identity label.
+This is the public profile repository for [Cynrath](https://github.com/Cynrath). GitHub renders the root `README.md` on the user profile. The profile presents engineering work and publicly available repositories rather than a label describing which tools are used.
 
 ## Privacy
 
